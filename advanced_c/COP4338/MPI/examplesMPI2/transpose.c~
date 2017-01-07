@@ -1,0 +1,64 @@
+#include <stdio.h>
+#include <string.h>
+#include <mpi.h>
+#include "dmath.h"
+
+#define DIM 1000 // global A[DIM], B[DIM]
+
+int main(int argc, char **argv)
+{
+  int ncpus, my_rank, i, j, iblock;
+  int Nx, Ny; // Nx=DIM/ncpus, Ny=DIM, local array: A[Nx][Ny], B[Nx][Ny]
+  double **A, **B;
+  
+  MPI_Init(&argc, &argv);
+  MPI_Comm_rank(MPI_COMM_WORLD, &my_rank);
+  MPI_Comm_size(MPI_COMM_WORLD, &ncpus);
+
+  if(DIM%ncpus != 0) { // make sure DIM can be divided by ncpus
+    if(my_rank==0)
+      printf("ERROR: DIM cannot be divided by ncpus!\n");
+    MPI_Finalize();
+    return -1;
+  }
+  Nx = DIM/ncpus;
+  Ny = DIM;
+   A = DMath::newD(Nx, Ny); // allocate memory
+  B = DMath::newD(Nx, Ny);
+  for(i=0;i<Nx;i++)
+    for(j=0;j<Ny;j++) A[i][j] = 2*(my_rank*Nx+i) + j;
+
+  memset(&B[0][0], '\0', sizeof(double)*Nx*Ny); // zero out B
+  // Create derived data types
+  MPI_Datatype type_send, type_recv;
+  MPI_Datatype type_line1, type_block;
+  MPI_Aint displ[2];
+  MPI_Datatype types[2];
+  int block_len[2];
+
+  MPI_Type_vector(Nx, 1, Ny, MPI_DOUBLE, &type_line1); // a column in A
+  types[0] = type_line1;  types[1] = MPI_UB; // modify the extent of column to be 1 double
+  block_len[0] = block_len[1] = 1;
+  displ[0] = 0; displ[1] = sizeof(double);
+  MPI_Type_struct(2, block_len, displ, types, &type_send); // modified column
+  MPI_Type_commit(&type_send); // Now A is a concatenation of type_send
+
+  MPI_Type_vector(Nx, Nx, Ny, MPI_DOUBLE, &type_block); // submatrix block
+  types[0] = type_block;  types[1] = MPI_UB; // modify extent of type_block
+  block_len[0] = block_len[1] = 1;
+  displ[0] = 0; displ[1] = Nx*sizeof(double);
+  MPI_Type_struct(2, block_len, displ, types, &type_recv); // modified block
+  MPI_Type_commit(&type_recv); // Now B is a cancatenation of type_recv
+
+  // send/recv data
+  MPI_Alltoall(&A[0][0], Nx, type_send, &B[0][0], 1, type_recv, MPI_COMM_WORLD);
+
+  // clean up
+  MPI_Type_free(&type_send);
+  MPI_Type_free(&type_recv);
+  DMath::del(A);
+  DMath::del(B);
+  
+  MPI_Finalize();
+  return 0;
+}

@@ -1,0 +1,15 @@
+PROGRAM WORKS WITH 0 BUGS.
+
+
+Generates random numbers.
+
+
+Only to be tested with 2, 5, and 10 as specified by instructor otherwise implementation
+of merge sort needs to be modified. 
+
+To run type the following in the command line:  
+
+make
+./merge 2
+./merge 5
+./merge 10

@@ -1,0 +1,35 @@
+K 25
+svn:wc:ra_dav:version-url
+V 55
+/repos/scratch/!svn/ver/421/teaching/COP4338-13F/matrix
+END
+thmm.c
+K 25
+svn:wc:ra_dav:version-url
+V 62
+/repos/scratch/!svn/ver/421/teaching/COP4338-13F/matrix/thmm.c
+END
+prtmat.c
+K 25
+svn:wc:ra_dav:version-url
+V 64
+/repos/scratch/!svn/ver/418/teaching/COP4338-13F/matrix/prtmat.c
+END
+genmat.c
+K 25
+svn:wc:ra_dav:version-url
+V 64
+/repos/scratch/!svn/ver/418/teaching/COP4338-13F/matrix/genmat.c
+END
+Makefile
+K 25
+svn:wc:ra_dav:version-url
+V 64
+/repos/scratch/!svn/ver/421/teaching/COP4338-13F/matrix/Makefile
+END
+seqmm.c
+K 25
+svn:wc:ra_dav:version-url
+V 63
+/repos/scratch/!svn/ver/418/teaching/COP4338-13F/matrix/seqmm.c
+END

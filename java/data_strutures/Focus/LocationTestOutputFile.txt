@@ -1,0 +1,6 @@
+Testsuite: TestPackage.LocationTest
+Tests run: 1, Failures: 0, Errors: 0, Time elapsed: 0.205 sec
+
+test:
+Deleting: /var/folders/5d/ztnlw7213nxfgklpy5kvvc_h0000gn/T/TEST-TestPackage.LocationTest.xml
+BUILD SUCCESSFUL (total time: 2 seconds)

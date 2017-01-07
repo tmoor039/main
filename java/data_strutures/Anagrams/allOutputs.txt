@@ -1,0 +1,14 @@
+Algorithm Name: DoubleLinkedList
+Number of anagrams: 16498
+Number of non-anagrams: 314
+Execution Time: 332.0ms
+
+Algorithm Name: DoubleArrayList
+Number of anagrams: 16498
+Number of non-anagrams: 314
+Execution Time: 375.0ms
+
+Algorithm Name: MyAsciiNumber
+Number of anagrams: 16498
+Number of non-anagrams: 314
+Execution Time: 346.0ms
