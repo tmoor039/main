@@ -15,7 +15,8 @@
 #include <arpa/inet.h>
 
 
-/*
+/* These structs are a linked list of nodes that correspond to the files
+  in the tracker and their correspodning IP addresses 
  ***********************************************************
                 START OF  LINKED LIST STRUCTURES
  ***********************************************************
@@ -25,8 +26,8 @@ typedef struct LineInfo // the value of the node...
 {
     
     int posiiton; // the position in the total list of files
-    char filename[100]; // the name of the file in the line
-    char ip[100]; // the ip address the peer which the line belongs to
+    char filename[100]; // the name of the file in the line  *BAD practice... filename cannot exeed 100 characters or it will overflow* 
+    char ip[100]; // the ip address the peer which the line belongs to *BAD practice.. IP address should not be 100 characters*
     int portNum; // the port number for the client with the line accepts connections
 }Line;
 
@@ -50,7 +51,7 @@ typedef struct Node // node of a linked list
 // struct for the connectionInfo
 
 // acts as a hash map
-typedef struct HashTable
+typedef struct HashTable // every file in a peer has a memory location and position
 {
     char* file; // array of file strings in this client (value)
     int position; // the position of that file  in the total list of files array( key)
@@ -59,20 +60,20 @@ typedef struct HashTable
 
 // declare structs
 
-typedef struct PeerInfoStruct
+typedef struct PeerInfoStruct // information of a peer connected to the tracker 
 {
-    char clientIP[50]; // Peers ip address
-    char localItemList[200]; // Peers local  directory files
+    char clientIP[50]; // Peers ip address  * Bad Practice.. shuold fix 
+    char localItemList[200]; // Peers local  directory files .... * Bad practice... if a peer has more than a 200 char item list.. break
     int serverPort; // Port in which the peer accepts connections
-    int numFiles; // number of files in the localItemList
-    Table hashTable[50]; // supports 50 file names
+    int numFiles; // number of files in the localItemList ... the localItemList is parsed into a number
+    Table hashTable[50]; // supports 50 file names       * Bad practice... if a peer has more than 50 files.. break. 
 
 }PeerInfo;
 
-// struct for the server thread in the peer
+// struct for the server thread in the peer 
 typedef struct ServerItem
 {
-    int fd;
+    int fd; // *Need to define these fields
     int port;
     char ip[50];
     int servCount;
