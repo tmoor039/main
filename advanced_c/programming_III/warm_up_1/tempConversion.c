@@ -3,15 +3,15 @@
 Name: Tiago Moore 
 
 Date: 1/24/2015
+Revision Date: 1/28/2018
 */
 
 #include <stdio.h>
 
 int main()
 {
- 	float  fahr, celsius;
-	int lower = 0, upper = 300, step = 20;
-	int menu = 0, input = 0 ; 
+	float  fahr= 0, celsius = 0, input= 0;
+	int  menu = 0; 
 
 
 	do{	
@@ -23,6 +23,10 @@ int main()
 	printf("3. Exit.\n" ); 
 
 	scanf("%d",&menu);
+	
+	}
+	while( menu != 1 && menu != 2 && menu !=3);	
+
 
 	switch(menu)
 	{
@@ -30,11 +34,11 @@ int main()
 	{
 
 		printf("Enter the temperature you would like to convert: ");
-		scanf("%d",&input);
+		scanf("%f",&input);
 		
-		fahr = (input +32)/.55;
+		fahr = (input*(5.0/9.0)+32);
 
-		printf(" %d in Celcius is %f in Fahrenheit",input,fahr);
+		printf(" %.0f in Celcius is %.1f in Fahrenheit\n",input,fahr);
 	break;
 	} 
 
@@ -43,21 +47,21 @@ int main()
 	
 	printf("Enter the temperature you would like to convert: ");
 
-	scanf("%d",&fahr);
+	scanf("%f",&fahr);
 	
-		celsius = 0;	
-		celsius = (5.0/9.0)*(fahr-32.0);
+		celsius = (fahr-32)*(5.0/9.0);
 		  
-		printf(" %d in Fahrenheit is %d in Celcius",fahr,celsius);
+		printf(" %.0f in Fahrenheit is %.0f in Celcius\n",fahr,celsius);
 
 	break; 
 	 }
   
 	default:
-		input = 0; 	
+		break;
 	}
-	}
-	while( menu != 1 || menu != 2 || menu !=3);	
+
+	
+	while( menu != 1 && menu != 2 && menu !=3);	
 
 	
 return 0;
