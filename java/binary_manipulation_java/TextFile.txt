@@ -1,0 +1,20 @@
+Modified: 1/29/2018
+
+
+ Using records 3, 4, 5, and 6
+    Display the DeMorgan's Law in a table using binary numbers
+   
+       
+4 - Worth 2 point
+    Read record 7
+    - Convert it to Decimal and Binary and print resutls e.i.  
+    
+This is the text file used to test the binary manipulation program created in Java.
+
+010101101
+001010101
+0 0
+0 1
+1 0
+1 1
+CD
