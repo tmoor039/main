@@ -1,5 +1,6 @@
 /*This program will calculate and display the persons tax rate and total taxes owed.
 Tiago Moore
+Reviewed 5 Feb 2018
 Jan 15, 2012*/
 
 #include<iostream>
