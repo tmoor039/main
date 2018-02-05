@@ -1,5 +1,6 @@
 /*This program will calculate amount of rainfall over years
 Tiago Moore
+Reviewed 5 Feb 2018
 Feb 22, 2012*/
 
 //Declare and initialize variables
