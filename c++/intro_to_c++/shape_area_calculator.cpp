@@ -1,5 +1,6 @@
 /*This program will create a menu  that will calculate the area of a circle, triagle, and rectangle. 
 Tiago Moore
+Reviewed 2/5/2018
 Feb, 23, 2012*/
 
 //declare and initialize variables
