@@ -1,6 +1,7 @@
 // classwork6.cpp
 // Tiago Moore
 // April 20, 2012
+// Reviewed 25 Feb 2018
 
 
 #include<iostream>
