@@ -1,3 +1,5 @@
+// Reviewed 5 March 2018
+// Functions that will calculate the average of a set of inputs. 
 #include<iostream>
 #include<iomanip>
 using namespace std;

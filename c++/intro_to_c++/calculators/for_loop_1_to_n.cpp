@@ -1,5 +1,6 @@
 //Tiago Moore
 // Edited 5 Feb 2018
+// Reviewed 5 March 2018
 // Modify to incorporate formula for sum of natural numbers from 1 to n n(n+1)/2
 //loop.cpp
 
