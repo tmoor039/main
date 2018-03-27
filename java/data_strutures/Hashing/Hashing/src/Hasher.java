@@ -1,11 +1,7 @@
 /**
  *
  *Created by Tiago Moore on Nov 17, 2014.
- *Copyright (c) 2014 __TiagoMoore__. All rights reserved.
- *Instructor: Debra Davis Section 2
- *I affirm that this program is entirely my own work and none of it is the work 
- *of any other person.
- *
+ *Reviewed 27 Mar 2018 
  *_______________________________
  */
 
@@ -27,7 +23,7 @@ public class Hasher {
      MyHashMap<String,String> myMap = new MyHashMap<String, String>(hf1, hf2);
      
      // create a File object associated with the list of anagrams   
-    File anagramTextFile = new File("Assn4-data-file.txt");
+    File anagramTextFile = new File("data_file.txt");
 
     // create a scanner Object associated with the anagram text file
     Scanner fileScanner = new Scanner(anagramTextFile);

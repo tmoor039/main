@@ -1,13 +1,12 @@
 /**
  *Created by Tiago Moore on Nov 17, 2014.
- *  Copyright (c) 2013 __TiagoMoore__. All rights reserved.
- * 
+ * Reviewed 27 March 20188 
  */
 public class HashFunction1 implements HashFunction <String>
 {
   private int hashValue;
   /**
-   * THis is a standard mod hash function. it will simply att up the ascii value and mod it by 11
+   * This is a standard mod hash function. it will simply add up the ascii value and mod it by 11
    * @param x
    * @return 
    */
