@@ -1,8 +1,7 @@
 import java.util.Map;
 import java.util.Iterator;
 import javafx.animation.KeyValue;
-
-
+ //Need to review this. Rewrite if possbile - 28 Mar 18
 /**
  * A class that implements a hashMap. 
  * This class will work as follows. Two hash functions will hash to the same array
