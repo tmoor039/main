@@ -23,7 +23,9 @@ public class HashFunction2 implements HashFunction<String>
       hashValue= multipleSum%11;
     return hashValue;
     
-    
+    // Difference from hash function 1 is that the probabity of a collision has decreased by a factor. since the number is being squared 
+    // we can no longer have 10 + 8 = 18 . We would then hav 100 + 64 = 164.. then result would be now different then 81+81... 162. The 
+    // possibility of a collision still exists.. its just lower due to the bigger range of numbers. 
   }
 
 }
