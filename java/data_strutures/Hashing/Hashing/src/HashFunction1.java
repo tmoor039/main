@@ -1,6 +1,6 @@
 /**
  *Created by Tiago Moore on Nov 17, 2014.
- * Reviewed 27 March 20188 
+ * Reviewed 27 March 2018
  */
 public class HashFunction1 implements HashFunction <String>
 {
@@ -29,6 +29,8 @@ public class HashFunction1 implements HashFunction <String>
     return ""+ hashValue;
   }
   
-  
+  // The problem with this hash function is that it will lead to a significant amount of colisions. 
+  // The ASCII value of 10 + 8 might be = to 18 .. and those are two diferent letters; however, if we get a word with the 
+  //ascii value of 9 +9 we will still get 18. hence we have two different words with the same hash value AKA a collision will happen. 
 
 }
