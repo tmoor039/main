@@ -2,7 +2,8 @@
  *
  *Created by Tiago Moore on Nov 17, 2014.
  *Reviewed 27 Mar 2018 
- *_______________________________
+ * This file contains the tester function for the other classes. It tests the hashers and sees if the code works without any collisions. 
+ * _______________________________
  */
 
 import java.util.*;
