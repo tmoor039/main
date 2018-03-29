@@ -9,18 +9,18 @@ import java.util.NoSuchElementException;
 
 
 /**
- * Created by Tiago Moore on Sep 27, 2014. Copyright (c) 2013 __TiagoMoore__. All rights reserved.
- *
+ * Created by Tiago Moore on Sep 27, 2014.
+ *Reviewed 29 Mar 2018
  */
 /**
- * Deque Class has a tostring method that the test classes are reliant on it has not been correctly
+ * Deque Class has a toString method that the test classes are reliant on it has not been correctly
  * implemented however all the assigment methods have been correctly implemented
  * @author tmoore
  * @param <T> A generic type to be an integer
  */
 public class Deque<T> implements Iterable<T>
 {
-
+// this class is acting like a linked list.. with the front and back nodes being ListNode objects
   ListNode<T> front;
   ListNode<T> back;
 
@@ -31,9 +31,9 @@ public class Deque<T> implements Iterable<T>
    */
   public Deque()
   {
-    front = new ListNode();
+    front = new ListNode(); //instantiating new listNode object and pasing it to front 
     back = new ListNode();
-    back = front.next;
+    back = front.next;// next is the next list node object in the linked list  
   }
 
 
@@ -54,21 +54,22 @@ public class Deque<T> implements Iterable<T>
 
 
   /**
-   * Methos returns the size of the linked list Does not account for the two nodes fornt and back
-   * and will only return a value if their data member contains a value
+   * Method returns the size of the linked list. Does not account for the two nodes front and back
+   * and will only return a value if their data member contains a value.
+   * Possible bug - if the next node has a null data value but still exists... it will not count the remainder of the list 
    * @return the amount of terms in the queue
    */
   public int size()
   {
-    ListNode<T> temp = front;
+    ListNode<T> temp = front; //manipulates classes static variables. Should use local variables to do this 
     int number = 1;
     if (isEmpty())
     {
       return 0;
     }
-    if (temp.next.data == null)
+    if (temp.next.data == null) // should find another way to see if the node exists rather than checking the data value 
     {
-      return number;
+      return number; // should not return here 
     }
     else
     {
@@ -105,7 +106,7 @@ public class Deque<T> implements Iterable<T>
         temp = temp.next;
       }
 
-      temp.next = add;
+      temp.next = add; // whats the relavence of this? why cant I just do back = add? 
       back = temp.next;
     }
   }
@@ -113,12 +114,12 @@ public class Deque<T> implements Iterable<T>
 
   /**
    * Adds an item to the front of the queue
-   * @param x the number being added C
+   * @param x the number being added
    */
   public void addFront(T x)
   {
-    ListNode<T> item = new ListNode();
-    item.data = x;
+    ListNode<T> item = new ListNode(); // another way to do declare  the object and 
+    item.data = x; // puts the data in the node by not using the contructor 
 
     if (isEmpty())
     {
@@ -133,27 +134,29 @@ public class Deque<T> implements Iterable<T>
 
   /*
    * Returns and removes the element in the back of the queue
-   * Complexity O(n) since it has to traverse the list entirely
+   * Complexity O(n) since it has to traverse the list entirely... does it though? why not just get the size and then delete
+   * that position on the list ? since size is alrady traversing the list
    */
 
-  public T removeBack()
+  public T removeBack() // should do this a different way... the temp.next.next method is silly. 
   {
     // start at the front
     ListNode<T> temp = front;
     ListNode<T> removed = new ListNode();
 
-    if (front.next == null)
+    if (front.next == null) // if there is only one node in the list 
     {
-      front.data = null;
+      front.data = null; // delete the data in that node aka delete the only node 
     }
-    else
+    else // if there is more than one node in the list 
     {
       while (temp.next.next != null)// traverse until last node is pointing to null
       {
         temp = temp.next;// move to the next node
       }
+      // after this loop it is going to have found the node so it is ready to be removed 
 
-      removed.data = temp.next.next.data;// get value being removed
+      removed.data = temp.next.next.data;// get value being removed ........ 
 
       temp.next = null;// remove the reference to the last node
 
@@ -186,10 +189,11 @@ public class Deque<T> implements Iterable<T>
       }
       back = front.next;
     }
-    return delete.data;
+    return delete.data; 
   }
 
 
+  // Why do i have the irerator be a 
   @Override
   public Iterator<T> iterator()
   {

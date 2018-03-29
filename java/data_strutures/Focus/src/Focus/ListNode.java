@@ -1,8 +1,7 @@
 package Focus;
 /**
  *Created by Tiago Moore on Sep 27, 2014.
- *  Copyright (c) 2013 __TiagoMoore__. All rights reserved.
- * 
+ *Reviewed 29 Mar 2018 
  */
 
 /**
