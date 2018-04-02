@@ -1,3 +1,7 @@
+// Reviewed 2 April 2018
+
+// Accessing memory with pointers and arrays 
+
 Five ways to print elemt 5:
 
 1)printf(%d,x[5]);
