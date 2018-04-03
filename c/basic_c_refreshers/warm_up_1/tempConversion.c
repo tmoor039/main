@@ -3,7 +3,10 @@
 Name: Tiago Moore 
 
 Date: 1/24/2015
-Revision Date: 1/28/2018
+Revision Date: 4/3/2018
+// Program needs input validation. Menu prevents from exiting but - what if user inputs a character? 
+// are there any other inputs that would cause the program to be exploitable? Can executable code in inputted? 
+
 */
 
 #include <stdio.h>
@@ -22,12 +25,8 @@ int main()
 	printf("2. Fahrenheit  to Celcius.\n");
 	printf("3. Exit.\n" ); 
 
-	scanf("%d",&menu);
+	scanf("%d",&menu); // this input leaves room for error. What if user inputs a character? 
 	
-	}
-	while( menu != 1 && menu != 2 && menu !=3);	
-
-
 	switch(menu)
 	{
 	case 1:
@@ -60,8 +59,8 @@ int main()
 		break;
 	}
 
-	
-	while( menu != 1 && menu != 2 && menu !=3);	
+	}	
+	while( menu !=3);	
 
 	
 return 0;

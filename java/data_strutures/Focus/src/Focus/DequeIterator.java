@@ -1,7 +1,7 @@
 
 /**
  *Created by Tiago Moore on Sep 27, 2014.
- *  Copyright (c) 2013 __TiagoMoore__. All rights reserved.
+ *Reviewed 29 Mar 2018 
  * 
  */
 package Focus;
@@ -33,11 +33,12 @@ public class DequeIterator<T> implements Iterator<T>
    */
   public boolean hasNext()
   {
+	  // if either the first or second list nodes are a null value - then there are no next nodes and return false 
     if(head==null ||head.next == null )
     {
       return false; 
     }
-    else
+    else 
     {
       return true; 
     }
@@ -46,7 +47,8 @@ public class DequeIterator<T> implements Iterator<T>
 
   /**
    * Object to get the next object of the list
-   * @return the data of the next object in the list 
+   * @return the data of the next object in the list....... 
+   * Do we care about the data of the next or the object itelself ? depends on what the implementation is asking for  
    */
   public T next()
   {
