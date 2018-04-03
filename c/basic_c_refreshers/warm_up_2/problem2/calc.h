@@ -1,4 +1,5 @@
 //
+// Reviewed 3 April 2018
 //  calc.h
 //  Calc
 //

@@ -1,15 +1,9 @@
 /* main.c
  ReversePolishCalculator
- 
- I understand that this homework assignment cannot be joint work with another st$
- 
- During the assignment, I only consulted the following book or online sources: ($
- 
- By putting my name below, I understand that the course adopts a zero tolerance $
- 
  Name: Tiago Moore
  
  Date: 2/5/2015
+ Revision date: 3 April 2018
  */
 
 
