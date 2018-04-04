@@ -1,3 +1,9 @@
+// Reviewed 4 April 2018
+// THis program is incomplete.... 
+// NO main method, and double declaration is implemented as a vooid ? 
+
+
+
 #include<stdio.h>
 
 double find_two_largest(const int *a, int n, int *largest, int *second_largest);
