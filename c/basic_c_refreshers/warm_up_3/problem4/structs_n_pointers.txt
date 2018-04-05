@@ -1,4 +1,6 @@
-The function to findLast can work as follows:
+// Reviewed 4 April 2018
+
+//The function to findLast can work as follows:
 
 struct node *find_last(struct node *list,int n)
 {
