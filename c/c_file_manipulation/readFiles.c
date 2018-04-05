@@ -1,5 +1,6 @@
-
-
+// should consider revising this read function
+// array takes in a 20 character char... hard coded should revise to be dynamic
+// Reviewed 5 April 2018
 
 int openSequenceFile( char genomeName[20] ) //receives the file name to be opened
 {

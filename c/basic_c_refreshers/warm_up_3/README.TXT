@@ -1,4 +1,4 @@
-THIS HOMEWORK ASSIGNMENT IS ORGANIZED AS FOLLOWS:
+THIS FOLDER IS ORGANIZED AS FOLLOWS:
 
 The problem1 directory contains the source code used to compile the sample problem and also
 screenshots proving it compiled on my unix enviroment. 
