@@ -1,20 +1,10 @@
 //
-//  MooreTpgm4.c
-//
+
 //  Created by Tiago Moore on 3/26/14.
-//  Copyright (c) 2014 T Moore. All rights reserved.
-/*********************************************************************
- Author    : Tiago Moore
- Course    : CDA3101 MWF 1300-1350
- Professor : Michael Robinson
- Program # : 4  purpose is to to Cover chapters 13 and 14 using C language
- 
- Due Date : 04/16/2014
- 
- Certification:
- I hereby certify that this work is my own and none of it is the work of any other person.
- ..........{ your signature }..........
- *********************************************************************/
+
+//  Date : 04/16/2014
+//Reviewed 8 April 2018
+// program requires text file of nucleotides
 #include <stdio.h>
 #include <stdlib.h>
 #include <math.h>
