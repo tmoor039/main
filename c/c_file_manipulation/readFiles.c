@@ -1,3 +1,4 @@
+//This file requires the dna test file for reading
 // should consider revising this read function
 // array takes in a 20 character char... hard coded should revise to be dynamic
 // Reviewed 5 April 2018
