@@ -1,15 +1,10 @@
 /*
 //  main.c
-//  Assignment1COP4338
-I understand that this homework assignment cannot be joint work with another student in the class or whoever previously took this class. I hereby certify that I worked on this homework assignment by myself. I did not share any part of my code with my classmates and I did not copy any part of the code from anyone else or from Internet.
- 
- During the assignment, I only consulted the following book or online sources: (Please list your sources here.)
- 
-By putting my name below, I understand that the course adopts a zero tolerance policy for cheating. I cannot give code to or receive code from other students. I cannot pull code from the internet. I understand any ethical violation will be reported to the university academic affairs and will result in an F grade for this course.
- 
     Name: Tiago Moore
     Created by T Moore on 2/28/15.
-//  Copyright (c) 2015 Tiago Moore. All rights reserved.
+    Reviewed 10 April 2018
+    File has many a modified string library for string manipulation in C
+
 */
 
 #include <stdio.h>
@@ -21,7 +16,7 @@ By putting my name below, I understand that the course adopts a zero tolerance p
 //Structure to hold our string
 struct Sentence
 {
-    char line[1024];
+    char line[1024]; // hard assumes the size of a line.. used for only the test file give.. should be dynamic 
     int lineLength;
 };
 
