@@ -4,6 +4,8 @@
     Created by T Moore on 2/28/15.
     Reviewed 10 April 2018
     File has many a modified string library for string manipulation in C
+ 
+TODO: Use a header and implementation file to clean this up. The declared functions are usefll but lets take this out of this file 
 
 */
 
@@ -28,10 +30,10 @@ struct Sentence
 void printData(struct Sentence data[], int numberofLines);
 
 //return type: boolean
-//parameters: 2 strings , a sentence and a string to search in the sentence
+//parameters: 2 strings , a sentence and a string to search in the sentence.  
 //purpose: searches to see if a string is in the sentence
-bool isFound( char sentence[],char*wordToSearch);
-
+bool isFound( char sentence[],char*wordToSearch); // why is the struct not passed in here for the sentence? 
+ 
 //return type: void
 //parameters: two, one file pointer and one character string pointer, data array, and number of lines
 //purpose: this will write an array to an output file
