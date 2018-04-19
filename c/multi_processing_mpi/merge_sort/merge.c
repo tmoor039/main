@@ -3,7 +3,7 @@
 //  MergeSort
 //
 //  Created by T Moore on 4/2/15.
-//  Copyright (c) 2015 Tiago Moore. All rights reserved.
+//  // Pending Review 4/18/18
 //
 
 #include <stdio.h>
