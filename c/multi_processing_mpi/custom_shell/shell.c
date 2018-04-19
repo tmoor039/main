@@ -1,5 +1,5 @@
-/* Need to review. Costum code integrated wit D`r. Raju Rangaswami's original 4338
- demo and modified to fit into our lecture. */
+// Example of manipulating file descriptors, processes and 
+// executing commands and processes within child processes 
 
 #include <stdio.h>
 #include <sys/wait.h>
