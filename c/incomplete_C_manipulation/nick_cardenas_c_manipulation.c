@@ -1,17 +1,5 @@
 
-/*********************************************************************
- Author    : Nicholas Cardenas
- Course    : CDA3101 MWF 1:00-1:50PM
- Professor : Michael Robinson
- Program # : Program 3
- {Using C to work with arrays, functions, and loops}
- 
- Due Date : 04/04/2014
- 
- Certification:
- I hereby certify that this work is my own and none of it is the work of any other person.
- ..........{ your signature }..........
- *********************************************************************/
+// nich cardernas implementation -- coworker 
 
 #include <stdio.h>
 #include <string.h>
@@ -26,7 +14,7 @@ int main()
 {
     //create and initialize array
     char name[1][26];
-    strcpy(name[0], "Nicholas & MN % Cardenas ");
+    strcpy(name[0], "N & MN % C ");
     
     //echo print
     printf("\nMy name is %s and the length of the array is %zu\n", name[0], strlen(name[0]));
