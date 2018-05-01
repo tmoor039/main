@@ -1,9 +1,6 @@
 //
 //  main.cpp
-//  FileCompare
-//
-//  Created by James Moore on 10/21/12.
-//  Copyright (c) 2012 __MyCompanyName__. All rights reserved.
+//  Created on 10/21/12.
 //
 
 #include "Header.h"
