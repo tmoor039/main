@@ -1,9 +1,7 @@
 //
 //  Header.h
 //  FileCompare
-//
-//  Created by James Moore on 10/21/12.
-//  Copyright (c) 2012 __MyCompanyName__. All rights reserved.
+//  Created on 10/21/12.
 //
 #ifndef CharQueue_CharQueue_h
 #define CharQueue_CharQueue_h

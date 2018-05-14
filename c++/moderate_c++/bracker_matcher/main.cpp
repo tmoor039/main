@@ -1,9 +1,8 @@
 //
 //  main.cpp
 //  practicestacks
-//
-//  Created by James Moore on 10/6/12.
-//  Copyright (c) 2012 __MyCompanyName__. All rights reserved.
+//  Created on 10/6/12.
+// Reviewed 30 April 2018 - test case for  stack data structure 
 //
 
 #include <iostream>

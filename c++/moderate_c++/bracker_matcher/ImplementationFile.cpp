@@ -1,9 +1,7 @@
 //
 //  File.cpp
-//  practicestacks
-//
-//  Created by James Moore on 10/6/12.
-//  Copyright (c) 2012 __MyCompanyName__. All rights reserved.
+//  This is a c++ implementation of a stack data structure
+// 
 //
 
 #include <iostream>

@@ -1,9 +1,8 @@
 //
 //  main.cpp
 //  CharQueue
-//
-//  Created by James Moore on 10/21/12.
-//  Copyright (c) 2012 __MyCompanyName__. All rights reserved.
+//  Created on 10/21/12.
+//  Reviewed 1 May 2018
 //
 // Implementation file for the CharQueue class
 #include <iostream>

@@ -1,34 +1,6 @@
-CDA 3101 Fundamentals of Computer Systems
-
-project 3: pgm3Acda3101Fund
-Professor: Michael Robinson 
-e-mail   : michael.robinson@cs.fiu.edu 
-
-
-Program:
-- Program must be named: yourLastNameFirstLetterOfYourFirstNamepgm3.c
-- Turn in the signed source code on paper, and email me the source code.
-- Make sure the program is properly documented and aligned uniformally,
-
-- Include the following header in every program:
-
-/*********************************************************************
-Author    : Your Name 
-Course    : CDA3101 days and time
-Professor : Michael Robinson 
-Program # : Program Purpose/Description 
-            {A brief description of the program }
-
-Due Date : MM/DD/YYYY 
-
-Certification: 
-I hereby certify that this work is my own and none of it is the work of any other person. 
- ..........{ your signature }..........
-*********************************************************************/
-Total Program Worth 10 points.
+C Fundamentals exercise
 
 Purpose of this program:
-- Cover chapters 12 and 13 using C language
 - Implement functions, if, else if, else, for, printf, 
   primitive types, String class with several functions, single dimension array.
           
