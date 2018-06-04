@@ -1,6 +1,6 @@
 /**
- * Created by Tiago Moore on Feb 23, 2014.
- * Copyright (c) 2013 __TiagoMoore__. All rights reserved.
+Created 23 Feb 2014
+Pending Review 4 June 2018
  *
  */
 
