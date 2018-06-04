@@ -1,14 +1,7 @@
 /**
- *Created by Tiago Moore on Apr 7, 2014.
- *  Copyright (c) 2013 __TiagoMoore__. All rights reserved.
- * *  File: ArrayRecursion.java
- * 
- *  For Assignment #6 you are to complete the 3 recursive methods of class 
- *  ArrayRecursion, below, by writing the body of each method
- *  
- *  NO CREDIT WILL BE GIVEN IF ANY OTHER CHANGES ARE MADE TO THE ArrayRecursion
- *  CLASS (OTHER THAN FILLING IN THE MISSING BODIES OF THE 3 METHODS), OR TO 
- *  THE TEST CLASS
+Created 7 April 2014
+Reviewed 6 June 2018
+*TODO: Change start and count variable names 
  */
 
 import java.util.* ;
