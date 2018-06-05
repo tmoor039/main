@@ -3,7 +3,8 @@ package poly;
 
 /**
  * Created by Tiago Moore on Apr 3, 2014. 
- * Copyright (c) 2013 __TiagoMoore__. All rights reserved.
+ * Updated 6 June 2018
+  *Linked list class polynomia 
  */
 
 
@@ -35,17 +36,15 @@ public class Polynomial
   {    
     this.head = null;
     
-    Node copy = p.head;
-     while(copy!= null)
+    Node copy = p.head; // sets the temporary node to the one passed in the constructor 
+    
+     while(copy!= null)// copy the entire linked list into the temporary one 
      {
        Term temp = copy.Data;
        this.addTerm(temp.getCoefficient(), temp.getExponent());
        copy = copy.next;
      }
-     
-     
-     
-     
+   
   }
 
 
