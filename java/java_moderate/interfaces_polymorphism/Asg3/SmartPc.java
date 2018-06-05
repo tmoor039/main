@@ -1,6 +1,9 @@
 /**
  * Created by Tiago Moore on Feb 23, 2014. 
- * Copyright (c) 2013 __TiagoMoore__. All rights reserved.
+ * Updated 5 June 2018
+ * This is another player that implements the Player interface, called Smart PC. 
+ * The smart Pc makes a call to its private smartmove 
+ * TODO: Moddify smart move function to return the marbles to remove instead of dereferencing it in a public funciton
  *
  */
 import java.util.Random;
