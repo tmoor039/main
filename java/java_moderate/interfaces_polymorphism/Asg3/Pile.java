@@ -1,8 +1,7 @@
 import java.util.Random;
 /**
  * Created by Tiago Moore on Feb 23, 2014.
- * Copyright (c) 2013 __TiagoMoore__. All rights reserved.
- *
+ * Reviewed on 5 June 2018
  */
 
 /**
