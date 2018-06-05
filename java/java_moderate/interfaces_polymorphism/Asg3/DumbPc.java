@@ -1,7 +1,7 @@
 /**
 Created 23 Feb 2014
 Pending Review 4 June 2018
- *
+ * DumbpC is another player that acts as a Player using the interface, had its own unique methods displaying polymorphism 
  */
 
 
