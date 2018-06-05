@@ -1,15 +1,8 @@
 import java.util.Scanner;
 
 /**
- *
  * Created by Tiago Moore on Feb 23, 2014. 
- * Copyright (c) 2013 __TiagoMoore__. All rights reserved.
- * Instructor: Greg Shaw Section 4 
- * I affirm that this program is entirely my own work and none of it
- * is the work of any other person.
- *
- *
- * _______________________________________________________
+ * Reviewed 5 June 18 
  */
 public class NimTester
 {
