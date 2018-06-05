@@ -7,15 +7,10 @@ package poly;
 /**
  *
  *Created by Tiago Moore on Apr 3, 2014.
- *Copyright (c) 2013 __TiagoMoore__. All rights reserved.
- *Instructor: Greg Shaw Section 4
- *I affirm that this program is entirely my own work and none of it is the work 
- *of any other person.
- *
- * 
- * 
- *______________________________________________________________
+ * Reviewed 5 June 2018
+ *Tester class adds and multiplies polynomials based on custom implementation
  */
+
 
 public class PolynomialTester
 {
