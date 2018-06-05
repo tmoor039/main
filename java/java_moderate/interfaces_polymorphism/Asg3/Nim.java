@@ -1,6 +1,10 @@
 /**
  * Created by Tiago Moore on Feb 23, 2014. 
- * Copyright (c) 2013 __TiagoMoore__. All rights reserved.
+Updated 5 June 2018 
+ * Nim Game Class
+ * This file provides a Nim game object and the playing function
+ * The playing method checks what the player wants to do based on their move method 
+ * The Nim class also declares a winner in the play method  based on the player move 
  *
  */
 public class Nim
