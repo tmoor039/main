@@ -1,8 +1,8 @@
 
 /**
  *Created by Tiago Moore on Mar 4, 2014.
- *  Copyright (c) 2013 __TiagoMoore__. All rights reserved.
- * 
+ *This file contains a human player obeject that implements the Player interface 
+ * Reviewed 5 June 2018
  */
 import java.util.Scanner;
 /**
