@@ -1,8 +1,7 @@
 package poly;
 /**
  *Created by Tiago Moore on Apr 2, 2014.
- *  Copyright (c) 2013 __TiagoMoore__. All rights reserved.
- * 
+ * Reviewed 5 June 2018
  */
 
 

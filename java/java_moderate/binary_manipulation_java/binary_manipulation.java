@@ -2,21 +2,11 @@
 
 /**
  *Created by Tiago Moore on Jan 15, 2014.
- *  Copyright (c) 2013 __TiagoMoore__. All rights reserved.
- * 
- */
-/*********************************************************************
-Author    : Tiago Moore
-Course    : CDA3101 MWF 1300-1350
-Professor : Michael Robinson 
 Program # : Manipulate binary numbers , hexadecimal, and decimal . 
-
 Due Date : 01/27/2014 
-Revised : 1/29/2018
-
-Certification: 
-I hereby certify that this work is my own and none of it is the work of any other person. 
-*********************************************************************/
+Last review : 1/29/2018
+* TODO: Line 140: Make recursive solutions
+**/
 
 import java.io.*;
 import java.util.*;
@@ -150,6 +140,7 @@ public class MooreTpgm1
             return 0;
         }
       }
+    
     
   public int add(int pos1, char x, char y)
   {
