@@ -1,5 +1,6 @@
 /**
  * Created by tmoore on 4/4/16.
+ * Reviewed 6 June 2018
  */
 angular
     .module('userRegistrationController', ['userService'])
