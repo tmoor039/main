@@ -1,10 +1,8 @@
 //
 //  main.cpp
 //  Time
-//
 //  Created by James Moore on 10/25/12.
-//  Copyright (c) 2012 __MyCompanyName__. All rights reserved.
-//
+// Reviewed 12 June 2018
 
 #include<iostream>
 #include<string>
