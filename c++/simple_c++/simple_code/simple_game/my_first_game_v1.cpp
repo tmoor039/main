@@ -1,6 +1,8 @@
 /*This is the first game project 
 Tiago Moore
-March 5, 2012*/
+Simple algorithm that calculates a score based on numberes selections
+Reviewed 12 June 18
+Created March 5, 2012*/
 
 #include<iostream>
 #include<fstream>
