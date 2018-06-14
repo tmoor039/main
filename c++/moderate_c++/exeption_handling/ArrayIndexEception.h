@@ -1,7 +1,7 @@
 //
 //  ArrayIndexEception.h
 //  Lab5 Exeptions
-//  Created by TJ Moore on 12/8/12.
+//  Created by T Moore on 12/8/12.
 //  Reviewed 13 June 18 
 
 #ifndef __Lab5_Exeptions__ArrayIndexEception__
