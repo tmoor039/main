@@ -1,10 +1,8 @@
 //
 //  ArrayIndexEception.h
 //  Lab5 Exeptions
-//
 //  Created by TJ Moore on 12/8/12.
-//  Copyright (c) 2012 TJ Moore. All rights reserved.
-//
+//  Reviewed 13 June 18 
 
 #ifndef __Lab5_Exeptions__ArrayIndexEception__
 #define __Lab5_Exeptions__ArrayIndexEception__
