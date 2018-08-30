@@ -1,9 +1,8 @@
 //
 //  File.cpp
 //  Lab2
-//
-//  Created by James Moore on 9/30/12.
-//  Copyright (c) 2012 __MyCompanyName__. All rights reserved.
+//  Created on 9/30/12.
+//  Reviewed on 8/30/18
 //
 
 #include <iostream>
@@ -16,7 +15,7 @@ using namespace std;
 
 //deconstructor 
 
-NumberArray::~NumberArray()
+NumberArray::~NumberArray() // releases memory 
 {
     if(numbers != NULL)
     {
@@ -38,14 +37,14 @@ NumberArray::~NumberArray()
 
 NumberArray::NumberArray(int size)
 {
-    assert( size > 0 );
+    assert( size > 0 ); // validate input 
     
     numbers = new float[size];
  
-    assert(numbers != NULL);
+    assert(numbers != NULL); // make sure the array was created
     
 
-    this -> size = size;
+    this -> size = size; // set the size of the array 
     
 }
 
