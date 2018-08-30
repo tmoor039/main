@@ -1,9 +1,8 @@
 //
 //  Header.h
 //  Lab2
-//
-//  Created by James Moore on 9/30/12.
-//  Copyright (c) 2012 __MyCompanyName__. All rights reserved.
+//  Created T 9/30/12.
+//  Reviewed 8/30/18 
 //
 
 #ifndef HEADER_H
