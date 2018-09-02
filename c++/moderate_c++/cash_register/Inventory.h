@@ -1,16 +1,14 @@
 //
 //  Intentory.h
-//  CashReg
-//
-//  Created by James Moore on 10/25/12.
-//  Copyright (c) 2012 __MyCompanyName__. All rights reserved.
-//
+//  CashReG
+//  Created  on 10/25/12
+// Reviewed 9/1/18
 
 #ifndef CashReg_Inventory_h
 #define CashReg_Inventory_h
 #include <string>
 using namespace std;
-
+// Inventory object to be used by the cash register 
 class InventoryItem
 {
 private:
