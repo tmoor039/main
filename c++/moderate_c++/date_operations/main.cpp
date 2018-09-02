@@ -2,8 +2,7 @@
 //  main
 //  Homework
 //
-//  Created by TJ Moore on 11/6/12.
-//  Copyright (c) 2012 TJ Moore. All rights reserved.
+//  Created on 11/6/12.
 //
 
 #include <iostream>
