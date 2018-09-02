@@ -2,9 +2,7 @@
 //  CashRegister.h
 //  CashReg
 //
-//  Created by James Moore on 10/25/12.
-//  Copyright (c) 2012 __MyCompanyName__. All rights reserved.
-//
+//  Created on 10/25/12
 
 #ifndef CashReg_CashRegister_h
 #define CashReg_CashRegister_h
