@@ -2,14 +2,13 @@
 //  Header.h
 //  practicestacks
 //
-//  Created by James Moore on 10/6/12.
-//  Copyright (c) 2012 __MyCompanyName__. All rights reserved.
-//
+//  Created on 10/6/12.
+//  Reviewed 9/1/2018
 
 #ifndef practicestacks_Header_h
 #define practicestacks_Header_h
 
-
+// declares basic elements for a integer array stack 
 class characterStack
 {
     private:
