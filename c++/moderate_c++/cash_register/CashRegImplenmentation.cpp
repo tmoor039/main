@@ -2,8 +2,8 @@
 //  CashRegImplenmentation.cpp
 //  CashReg
 //
-//  Created by James Moore on 10/25/12.
-//  Reviwed 1 May 2018
+//  Created 10/25/12 .
+//  Latest review 1 May 2018
 //
 
 #include <iostream>
