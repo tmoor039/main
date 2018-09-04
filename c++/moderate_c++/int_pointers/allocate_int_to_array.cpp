@@ -2,8 +2,8 @@
 //  main.cpp
 //  ArrayAllocator Function
 //
-//  Created by James Moore on 9/9/12.
-//  Copyright (c) 2012 __MyCompanyName__. All rights reserved.
+//  Created by  on 9/9/12.
+// Reviewed 9/4/2018
 //
 #include<iostream>
 #include<cstdlib>
