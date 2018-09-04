@@ -1,7 +1,6 @@
 //
 //  p2pheader.c
 //  p2p
-//
 //  Created by tmoore on 10/2/15.
 //  Copyright © 2015 tmoore. All rights reserved.
 //
