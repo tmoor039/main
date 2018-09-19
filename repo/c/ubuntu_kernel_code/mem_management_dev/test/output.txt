@@ -1,0 +1,7 @@
+Statistics before 1000 allocations of 1 and 255 bytes
+Average Claimed: 163 Average Free: 158996
+Statistics after 1000 allocations of 1 and 255 bytes:
+Memory difference: 10700.00
+Before: 158996.00
+After: 169696.00
+Percent difference: 6.72973%

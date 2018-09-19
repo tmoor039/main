@@ -1,0 +1,30 @@
+Tiago Moore
+Cop4610 Lab 1 Lerning Report
+8/31/2015
+
+
+
+I found this lab to be very useful in my learning of operating systems.I 
+was able to sucessuly add a kernel module which exposed me to the new 
+architecture. I learned that I am not able to call standard C library calls
+within the kernel enviroment.The kernel modification was fairly straight 
+forward but i had a harder time writing my system call.
+
+Initially I could not get a regular system call to compile. A learning lesson 
+that came from that was to keep frequent snapshots. I just reverted back to 
+the initial snapshot of my fresh kernel and attempted to write the system call 
+again. Starting from the fresh kernel my system call worked the second time
+around. The most challenging part was not being able to use the standard C 
+library functions. I wanted to use "time.h" to be able to manipulate the 
+gettimeofday() function but I could not; instead I wrote my own hard coded 
+method of manipulating the internal struct containing the epoch time. 
+
+The notion of Epoch time was also a learning expirience. I did not know that
+linux hardware was managed by epoch time which started on 1/1/1970. Also
+there will be a problem with epoch time on January 19 2038 since the number
+used to implement the signed integer is a 32 bit integer. 
+
+I can now efficiently add system calls to the linux kernel at will; the only
+setback I have is learning all the internal kernel functions that I am allowed
+and am not allowed to use. After going through the kernel API it should be 
+easier to write source code for the linux Kernel. 

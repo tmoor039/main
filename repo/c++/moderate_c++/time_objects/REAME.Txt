@@ -1,0 +1,2 @@
+Object oriented C++ that manipulates a time object 
+Pending review 12 June 18 

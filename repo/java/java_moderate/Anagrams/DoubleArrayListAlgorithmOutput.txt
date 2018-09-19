@@ -1,0 +1,4 @@
+Algorithm Name: DoubleLinkedList
+Number of anagrams: 16498
+Number of non-anagrams: 314
+Execution Time: 332.0ms

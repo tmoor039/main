@@ -1,0 +1,37 @@
+// Reviewed 2 April 2018
+
+// Accessing memory with pointers and arrays 
+
+Five ways to print elemt 5:
+
+1)printf(%d,x[5]);
+2)declare a pointer *p
+ then set *p = &x[5]
+then print p  printf("%d",*p)
+3)declare a pointer *p
+ then set *p = &x[0]
+then print p with pointer arithmetic  printf(%d,*(p+5)
+4)2)declare a pointer *q
+ then set *p = &x[0]
+ then set q = (p+5)
+ then print q printf("%d",*q)
+5)declare a pointer *p
+ then set *p = &x[0]
+ then do pointer addition on p ; p+=5
+ then print p ; printf("%d",*p);
+
+
+Difference between (*p)++ and *(p++):
+
+The parentheses are important in (*p)++ because the experssion increments the contents of what is points to. So or example if 
+the contacts of the memory locaiton pointing to by ip is 5 *(ip)++ would increment it to 6. In the other experssion *(p++), the 
+expression increments ip instead of what it points to the next memory location.  
+
+
+
+
+
+With an array, you allocate  a sequence of memory locations which you can only acess by using a pointer. Lets say that 
+a is an array, acessing a[0] is  a pointe to that location .With a pointer variable you are able to reference one of those
+ locations in the array in the same manner , but wWith a pointer you can manipulate the array using a pointer variable 
+ with integer arithmatic such as p++.Array elements are always passed as pointers.

@@ -1,0 +1,6 @@
+**********************************TESTING SYSTEM CALL CODE************************************
+After compiling with "make"
+To test simple type make and run ./threading <threadNumber>  for unsyncrhonized program 
+To test sycnrhonized version type /threadingSync <threadNumber>
+.. you will see the implemented system call with "dmesg"
+************************************************************************************************

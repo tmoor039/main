@@ -1,0 +1,16 @@
+
+The original combination lock is : F I U
+The password you tried to use to open the lock is: U S F
+Incorrect Combination! Lock did not open.
+
+
+Enter the correct combination for the lock: 
+The original combination lock is : F I U
+The password you tried to use to open the lock is :F I U
+The combination is correct!. The lock is open.
+Lock has been closed by default. 
+
+Enter another incorrect  combination for the lock: 
+The original combination lock is : F I U
+The password you tried to use to open the lock is :F A U
+Incorrect Combination. Lock did not open.

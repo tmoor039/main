@@ -1,0 +1,8 @@
+mpicc mpi-sort.c -o mpi-sort
+mpirun -np 8 ./mpi-sort
+
+
+mpicc mpi-example1.c -o mpi-example1
+mpirun -np 8 ./mpi-example1
+
+
