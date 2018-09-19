@@ -1,4 +1,0 @@
-Algorithm Name: MyAsciiNumber
-Number of anagrams: 16524
-Number of non-anagrams: 288
-Execution Time: 377.0ms

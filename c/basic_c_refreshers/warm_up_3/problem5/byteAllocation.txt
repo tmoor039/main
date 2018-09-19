@@ -1,7 +1,0 @@
-The answer to the question is as follows:
-
-Since a union does not allocate extra memory for different members or 
-variables, it would not need to allocatate more bytes for each data type
-variable being specified. Thus the total amount of bytes would be 16 since the
-union occupies 16 bytes, The  double which occupies 8 bytes a 4 char and an int,
-and the other all fit within that amount of space allocated. 

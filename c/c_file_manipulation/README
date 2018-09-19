@@ -1,8 +1,0 @@
-      - The program requires a test file to run. This directory is missing the test file but has usefull code for reading and writing to files in C. 
-      - Open the file for reading
-      - Read and print all records in one line separated by one space
-      - Close the file
-      
-
-size_t fwrite(const void *ptr, size_t size_of_elements, 
-                        size_t number_of_elements, FILE *a_file);

@@ -1,6 +1,0 @@
-  "NOTE: YOU MUST USE THE FOLLOWING FORMAT WHEN INPUTTING COMMAND LINE ARGUMENTS:
-AS NOTED IN INSTRUCTIONS: The program should take the follow command-line options in order:
-  imagetool [-s scale | -r degree | -f ] [-o output_file] [input_file]
-    
-
-    

@@ -1,1 +1,0 @@
-telnet cygnus-x.net 17
