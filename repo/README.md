@@ -3,7 +3,7 @@
 My main repo 
 
  In the C directory you will find a wide range of C source code from simple trainings to custom written kernel memory allocators. 
- The most advanced C code is written under networking, kernel, and MPI sections. 
+ The most advanced C code is written under socket, kernel, and MPI sections. 
  
  C++ repo has introductory to moderate level programming going up to polymorphism, complex data structures. 
  
