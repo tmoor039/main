@@ -1,6 +1,6 @@
 // This program will read data form file football.txt
 
-#Einclude<fstream>
+#include<fstream>
 #include<iostream>
 
 using namespace std;
