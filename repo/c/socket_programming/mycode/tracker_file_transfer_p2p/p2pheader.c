@@ -2,7 +2,7 @@
 //  p2pheader.c
 //  p2p
 //  Created by tmoore on 10/2/15.
-//  Copyright © 2015 tmoore. All rights reserved.
+//  Reviewed 10/17/2018
 //
 
 #include "p2pheader.h"
