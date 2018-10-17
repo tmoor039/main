@@ -119,7 +119,7 @@ char* listFiles(struct dirent *directory,DIR *folderPath)
                     strcat(allFiles, "\n");
                 }
             }
-    
+    // should closedir(folderpath) here
    
         }
     }
