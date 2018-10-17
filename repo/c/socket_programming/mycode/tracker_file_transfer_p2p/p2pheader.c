@@ -102,7 +102,7 @@ char* listFiles(struct dirent *directory,DIR *folderPath)
         }
         // allocate memory for string that will contain list of all files
         
-        allFiles = malloc(sizeof(char)*totalBytes+numFileCount);
+        allFiles = malloc(sizeof(char)*totalBytes+numFileCount); // dont we want to multiply by the number of files here to get the right ammoutn of memory ? allocated? 
         
         // reset position of directory
         rewinddir(folderPath);
