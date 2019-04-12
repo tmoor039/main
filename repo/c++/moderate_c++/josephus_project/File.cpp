@@ -1,10 +1,11 @@
 //
 //  File.cpp
 //  Josephus
-//
+//  Reviewed 11 Apr 19
 //  Created by TJ Moore on 11/12/12.
 //  Copyright (c) 2012 TJ Moore. All rights reserved.
-//
+// #TODO do the impkement delete function again with a different algorithm 
+// # TODO - improve print list functiom .. recursively 
 
 #include <iostream>  // For cout  and NULL
 #include "File.h"
