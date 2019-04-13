@@ -6,6 +6,7 @@
 //  Copyright (c) 2012 TJ Moore. All rights reserved.
 // #TODO do the impkement delete function again with a different algorithm 
 // # TODO - improve print list functiom .. recursively 
+// # TODO: The head and tail pointers seem unorganized -> How can it be better structured? 13 Apr 19
 
 #include <iostream>  // For cout  and NULL
 #include "File.h"
