@@ -4,7 +4,7 @@
 //
 //  Created by T Moore on 4/2/15.
 //  // Pending Review 4/18/18
-//
+// Note on 14 April 19 - This merge sort algorithm is hard coded - need to re do for X amount of line merges
 
 #include <stdio.h>
 #include <pthread.h>
